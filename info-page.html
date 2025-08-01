@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>informacion del producto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            min-height: 80px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: rgb(159, 78, 209);
+        }
+
+        .logo a {
+            color: pink;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .menu-icon {
+            font-size: 38px;
+        }
+
+        .account-icon {
+            font-size: 38px;
+        }
+
+        .logo {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .search {
+            --padding: 14px;
+            width: max-content;
+            display: flex;
+            align-items: center;
+            padding: var(--padding);
+            border-radius: 28px;
+            background: #f6f6f6;
+        }
+
+        .search-input {
+            font-size: 16px;
+            font-family: 'Lexend', sans-serif;
+            color: #333333;
+            margin-left: var(--padding);
+            outline: none;
+            border: none;
+            background: transparent;
+            width: 300px;
+        }
+
+        .product {
+            margin: 40px;
+            display: flex;
+        }
+
+        .product img {
+            width: 500px;
+            height: 400px;
+        }
+
+        .product-content {
+            margin: 20px;
+            padding-right: 25%;
+            text-align: center;
+        }
+
+        .product-content a {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #333;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 16px;
+            color: #fff;
+        }
+
+        @media (max-width:768px) {
+            header {
+                flex-direction: column;
+            }
+            .product {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span class="material-symbols-outlined menu-icon">
+            menu
+        </span>
+        <div class="logo"><a href="moonskin.html">moonskin</a></div>
+        <div class="search">
+            <input class="search-input" type="search" placeholder="Buscar" />
+            <span class="material-symbols-outlined">
+                search
+            </span>
+        </div>
+        <span class="material-symbols-outlined account-icon">
+            account_circle
+        </span>
+    </header>
+    <div class="product">
+        <img src="https://s1.1zoom.me/prev/461/460595.jpg" alt="">
+        <div class="product-content">
+            <h3>Coleccion</h3>
+            <h1>nombre del producto</h1>
+            <p>La escritura eficaz es un arte. Empieza usando
+                palabras sencillas y cotidianas que las personas
+                puedan entender fácilmente. Sé claro y directo.
+                Mantén un flujo de ideas lógico e intenta ser conciso, a
+                menos que estés escribiendo un artículo extenso.</p>
+            <a href="">Comprar</a>
+        </div>
+    </div>
+</body>
+
+</html>
