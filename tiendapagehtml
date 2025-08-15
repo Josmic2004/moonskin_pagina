@@ -12517,6 +12517,7 @@
             --yellow-color: #de0082;
             --text-gray-color: #606060;
             --white-color: #ffffff;
+            --blue-color: #0B1D51;
             --ofwhite-color: #f2f2f2;
             --black-color: #000000;
             --light-color: #fcfcfc;
@@ -13989,7 +13990,7 @@
         }
 
         .text-white {
-            color: var(--white-color) !important
+            color: var(--blue-color) !important
         }
 
         .text-ofwhite {
@@ -24671,7 +24672,7 @@
     <main class="main__content_wrapper">
         <!-- Start breadcrumb section -->
         <section class="breadcrumb__section breadcrumb__bg"
-            style="background-image: url(https://wallpapers.com/images/featured-full/ultra-ancho-74unq9w6au156lp8.jpg);background-size: cover;">
+            style="background-image: url(https://img.freepik.com/foto-gratis/crema-gel-azul-muestra-cosmetica-transparente-burbujas-aisladas-sobre-fondo-blanco-textura-suero-facial-producto-cuidado-piel-claro-mancha-primer-plano-desinfectante-manos-gel-liquido-higiene_284704-1029.jpg);background-size: cover;">
             <div class="container">
                 <div class="row row-cols-1">
                     <div class="col">
